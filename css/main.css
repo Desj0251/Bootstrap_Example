@@ -115,6 +115,9 @@ header h1{
 }
 
 @media (min-width: 575px){
+    main{
+        padding-bottom: 75px;
+    }
     footer{
         position: fixed;
         bottom: 0;
