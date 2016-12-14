@@ -115,6 +115,10 @@ header h1{
 }
 
 @media (min-width: 575px){
+    footer{
+        position: fixed;
+        bottom: 0;
+    }
     .navbar-brand {
         display:none;
     }   
