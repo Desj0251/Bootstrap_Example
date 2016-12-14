@@ -2,10 +2,25 @@
 *   Colours Used:
 *       Light Orange:       #FF8E29
 *       Portland Orange:    #FF5A36
+*   Images Used:
+        https://chosenrebel.files.wordpress.com/2013/10/fall-tree-nature-orange-leaves-autumn-leaves-fallt-ree-via-pinterest.jpg
+*       
+        http://www.timelinecoverbanner.com/facebook-covers/autumn-tree.jpg
+*
+        https://s-media-cache-ak0.pinimg.com/originals/f4/43/6d/f4436d52ee97f491a3fc172910d50e9b.jpg
+*
+        http://data.whicdn.com/images/10983859/original.jpg
+*
+        http://sites.psu.edu/siowfa14/wp-content/uploads/sites/13467/2014/09/fall-trees-and-lane-john-bartosik.jpg
+*
 **/
 
 html{
     background-color: #FF8E29;
+}
+.card img{
+    width: 100%;
+    height: auto;
 }
 .main-content{
     padding: 20px 20px 20px 20px;
@@ -96,6 +111,7 @@ header{
     background-size: cover;
     text-shadow: 0px 4px 6px #000;
     text-align: center;
+    background-color: #FF8E29;
 }
 header h1{
     font-size: 2.75rem;
