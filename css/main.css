@@ -8,8 +8,9 @@ html{
     background-color: #FF8E29;
 }
 .main-content{
-    padding: 20px 20px 150px 20px;
+    padding: 20px 20px 20px 20px;
     background-color: #FF8E29;
+    margin-bottom: 0;
 }
 .jumbotron{
     border-radius: 0;
@@ -75,8 +76,10 @@ form {
     font-weight: bold;
 }
 footer {    
+/*
     position: fixed;
     bottom: 0;
+*/
     width: 100%;
     height: auto;
     padding: .75rem 1.25rem;
