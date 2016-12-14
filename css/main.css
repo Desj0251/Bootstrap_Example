@@ -1,0 +1,124 @@
+/**
+*   Colours Used:
+*       Light Orange:       #FF8E29
+*       Portland Orange:    #FF5A36
+**/
+
+html{
+    background-color: #FF8E29;
+}
+.main-content{
+    padding: 20px 20px 150px 20px;
+    background-color: #FF8E29;
+}
+.jumbotron{
+    border-radius: 0;
+    border: solid 2px #FF5A36;
+}
+.card{
+    border-radius: 0;
+    border: solid 2px #FF5A36;
+}
+.card-block h4{
+    color: #FF5A36;
+}
+main>.jumbotron>h1{
+    color: #FF5A36;
+}
+main>.jumbotron>p>a{
+    background-color: #FF8E29;
+}
+main>.jumbotron>p>a:hover,
+main>.jumbotron>p>a:active{
+    background-color: #FF5A36;
+}
+.bg-primary{
+    /* Portland Orange */
+    background-color: #FF5A36!important;
+}
+ul.copy{
+    float: left;
+}
+ul.social{
+    float: right;
+}
+div.foot a:first-child{
+    font-weight: bold;
+    color: #eee;
+}
+div.foot a:first-child:hover{
+    font-weight: bold;
+    color: #eee;
+}
+li.brand{
+    font-weight: bold;
+}
+div.foot a.social{
+    float: left;
+    width: 45px;
+}
+form {
+    border: solid 2px #FF5A36;
+    background-color: #eee;
+    padding: 20px;
+}
+.btn{
+    background-color: #FF8E29;
+    border: none;
+}
+.btn:hover,
+.btn:active{
+    background-color: #FF5A36;
+}
+.form-group>label{
+    color: #FF5A36;
+    font-weight: bold;
+}
+footer {    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: .75rem 1.25rem;
+}
+header{
+/*  image used found @ http://www.merrymaidsottawa.ca/img/ottawacleaningmaid-bg-nocopy-Fall.jpg  */
+    background-image: url(../img/ottawacleaningmaid-bg-nocopy-Fall.jpg);
+    width: 100%;
+    height: auto;
+    background-position: 50%;
+    padding: 3rem 0;
+    font-weight: bolder;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0px 4px 6px #000;
+    text-align: center;
+}
+header h1{
+    font-size: 2.75rem;
+    color: #ccc;
+}
+.map{
+    border: solid 2px #FF5A36;
+    width: 100%;
+}
+@media (max-width: 575px) and (min-width: 1px){
+    .nav-item{
+        display:none;      
+    }
+    .navbar-toggle {
+        float: right;  
+    }
+}
+
+@media (min-width: 575px){
+    .navbar-brand {
+        display:none;
+    }   
+    .mainTitle {
+        display: none;   
+    }
+    .main-content{
+        padding: 20px 20px 75px 20px;
+    }
+}
