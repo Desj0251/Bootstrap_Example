@@ -58,6 +58,7 @@ a {
 .card img{
     width: 100%;
     height: auto;
+    border-radius: 0;
 }
 .main-content{
     padding: 20px 20px 20px 20px;
